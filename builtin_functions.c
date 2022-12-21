@@ -56,7 +56,7 @@ int history(char *input)
  * Return: 0 always
  */
 
-int history_dis(char **cmd, int er)
+int history_dis(__attribute__((unused))char **c, __attribute__((unused))int s)
 {
 	char *filename = ".simple_shell_history";
 	FILE *fp;
@@ -113,7 +113,7 @@ int dis_env(__attribute__((unused)) char **cmd, __attribute__((unused)) int er)
  * Return: 0 sucess 1 fail
  */
 
-int change_dir(char **cmd, int er)
+int change_dir(char **cmd,  __attribute__((unused))int er)
 {
 
 	int value = -1;

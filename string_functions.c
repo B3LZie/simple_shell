@@ -3,12 +3,12 @@
 /**
  * _strtok - tokenize a string
  * @str: the string
- * @tok: the other const
+ * @delim: the other const
  *
  * Return: pointer to the next token or null
  */
 
-char *_strtok(char *str, const char *tok)
+char *_strtok(char *str, const char *delim)
 {
 	static char *ts;
 	static char *nt;

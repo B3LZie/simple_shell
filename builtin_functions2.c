@@ -111,7 +111,7 @@ int echo_bul(char **cmd, int st)
  * Return: always 0
  */
 
-int display_help(char **cmd, int er)
+int display_help(char **cmd, __attribute__((unused))int er)
 {
 	int fd, fw, rd;
 	char c;

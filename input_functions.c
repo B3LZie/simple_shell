@@ -29,9 +29,11 @@ char *_getline(void)
 {
 	int i, buffsize, rd;
 	char c;
-
+	char *buff;
+       
 	c = 0;
 	buffsize = BUFSIZE;
+	buff = malloc(buffsize);
 	if (buff == NULL)
 	{
 		free(buff);

@@ -36,8 +36,8 @@ char *_strchr(char *s, char c)
 		if (*s == c)
 		{
 			break;
-		} while (*s++);
-	}
+		}
+	} while (*s++);
 	return (s);
 }
 

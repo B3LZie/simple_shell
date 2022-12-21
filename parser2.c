@@ -1,4 +1,4 @@
-#inlcude "shell.h"
+#include "shell.h"
 
 /**
  * read_file - read cmd from file

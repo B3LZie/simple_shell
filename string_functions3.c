@@ -20,13 +20,13 @@ void array_rev(char *arr, int len)
 }
 
 /**
- * int_len - determine length of int
+ * intlen - determine length of int
  * @num: the int
  *
  * Return: the length of the int
  */
 
-int int_len(int num)
+int intlen(int num)
 {
 	int len;
 
